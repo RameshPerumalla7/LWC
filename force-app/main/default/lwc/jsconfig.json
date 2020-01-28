@@ -1,0 +1,53 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/customChart": [
+                "customChart/customChart.js"
+            ],
+            "c/dataTableWithSortingInLWC": [
+                "dataTableWithSortingInLWC/dataTableWithSortingInLWC.js"
+            ],
+            "c/dynaTable": [
+                "dynaTable/dynaTable.js"
+            ],
+            "c/dynamicDataTable": [
+                "dynamicDataTable/dynamicDataTable.js"
+            ],
+            "c/genericCards": [
+                "genericCards/genericCards.js"
+            ],
+            "c/hello": [
+                "hello/hello.js"
+            ],
+            "c/listOfData": [
+                "listOfData/listOfData.js"
+            ],
+            "c/lwcContactAddressForm": [
+                "lwcContactAddressForm/lwcContactAddressForm.js"
+            ],
+            "c/lwcLazyTest": [
+                "lwcLazyTest/lwcLazyTest.js"
+            ],
+            "c/lwcMyTestLazy": [
+                "lwcMyTestLazy/lwcMyTestLazy.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/searchMyContact": [
+                "searchMyContact/searchMyContact.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

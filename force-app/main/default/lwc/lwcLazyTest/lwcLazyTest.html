@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Lazy Loading - LWC">
+        <div style="height: 250px;">
+            <lightning-datatable
+                key-field="Id"
+                columns={accountColumns}
+                data={accountData}
+                enable-infinite-loading={enableInfiniteLoading}
+                is-loading={tableLoadingState}
+                onloadmore={onLoadMoreHandler}>
+            </lightning-datatable>
+        </div>  
+    </lightning-card>
+</template>
